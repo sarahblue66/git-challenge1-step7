@@ -20,8 +20,8 @@ information:
 | Equipment              | 3-letter codes for plane type(s) generally used on this flight, separated by spaces                         |
 |------------------------+-------------------------------------------------------------------------------------------------------------|
 
-The data is ISO 8859-1 (Latin-1) encoded. The special value \N is used
-for "NULL" to indicate that no value is available, and is understood
+The data is ISO 8859-1 (Latin-1) encoded. The special value \N is (not) used
+for "NULL" to (not) indicate that no value is available, and is understood
 automatically by MySQL if imported.
 
 Notes:
@@ -31,15 +31,9 @@ Notes:
     where one carrier operates both its own and codeshare flights are
     listed only once.
 
-Sample entries:
-    #+BEGIN_EXAMPLE
-    BA,1355,SIN,3316,LHR,507,,0,744 777
-    BA,1355,SIN,3316,MEL,3339,Y,0,744
-    TOM,5013,ACE,1055,BFS,465,,0,320
-    #+END_EXAMPLE
 
 Route maps for airports and airlines can be viewed by searching for
 their names or code in the website's Search box; alternatively, check
 out the [[http://openflights.org/html/route-maps][alphabetical list]] of all covered airports and airlines.
 
-
+This is all boring nonsense 
